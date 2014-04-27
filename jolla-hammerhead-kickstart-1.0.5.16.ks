@@ -22,7 +22,7 @@ user --name nemo --groups audio,video,privileged --password nemo
 #repo --name=nemo-adaptation-n950-n9 --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/ti:/omap3:/n950-n9/latest_armv7hl/ 
 #repo --name=nemo-adaptation-n9xx-common --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/ti:/omap3:/n9xx-common/latest_armv7hl/ 
 
-repo --name=hammerhead-hal --baseurl=http://repo.merproject.org/obs/home:/siteshwar:/hw:/hammerhead/sailfish_1.0.3.8_armv7hl/
+repo --name=hammerhead-hal --baseurl=http://repo.merproject.org/obs/home:/siteshwar:/hw:/hammerhead/sailfish_1.0.5.16_armv7hl/
 repo --name=jolla --baseurl=http://releases.jolla.com/releases/1.0.5.16/jolla/armv7hl/
 repo --name=hotfixes --baseurl=http://releases.jolla.com/releases/1.0.5.16/hotfixes/armv7hl/
 repo --name=apps --baseurl=http://releases.jolla.com/jolla-apps/1.0.5.16/armv7hl/
