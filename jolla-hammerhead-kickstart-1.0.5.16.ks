@@ -200,6 +200,7 @@ libhybris-*
 
         #usb-moded-config-n950-n9
         #===========================================================
+qt5-plugin-generic-evdev
 qt5-plugin-platform-eglfs
 qt5-qpa-hwcomposer-plugin
 strace
