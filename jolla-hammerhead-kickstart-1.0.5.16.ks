@@ -271,6 +271,10 @@ echo -n 'armv7hl-meego-linux' > /etc/rpm/platform
 echo 'arch = armv7hl' >> /etc/zypp/zypp.conf
 ## end arch-armv7hl.post
 
+# Remove service to mount debugfs installed by systemd (it causes liptick to crash)
+rm -f /lib/systemd/system/sys-kernel-debug.mount
+rm -f /lib/systemd/system/sysinit.target.wants/sys-kernel-debug.mount
+
 %end
 
 %post --nochroot
