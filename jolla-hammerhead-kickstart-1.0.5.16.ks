@@ -163,13 +163,13 @@ droid-hal-hammerhead-kernel-modules
 droid-hal-hammerhead-devel
 droid-hal-hammerhead-policy-settings
 #droid-hal-hammerhead-img-boot
-#droid-hal-hammerhead-pulseaudio-settings
+droid-hal-hammerhead-pulseaudio-settings
 droid-hal-hammerhead-kernel
 droid-hal-hammerhead-sailfish-config
 #droid-hal-hammerhead-img-recovery
 #droid-hal-hammerhead-img-boot
 
-# pulseaudio-modules-droid
+pulseaudio-modules-droid
 libhybris-*
 #usb-moded*
 
