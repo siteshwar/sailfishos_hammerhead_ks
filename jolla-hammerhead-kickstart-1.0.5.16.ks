@@ -171,6 +171,7 @@ droid-hal-hammerhead-sailfish-config
 
 pulseaudio-modules-droid
 libhybris-*
+ngfd-plugin-droid-vibrator
 #usb-moded*
 
 #@jolla-hw-adaptation-n9
