@@ -22,13 +22,12 @@ user --name nemo --groups audio,video,privileged --password nemo
 #repo --name=nemo-adaptation-n950-n9 --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/ti:/omap3:/n950-n9/latest_armv7hl/ 
 #repo --name=nemo-adaptation-n9xx-common --baseurl=http://repo.merproject.org/obs/nemo:/devel:/hw:/ti:/omap3:/n9xx-common/latest_armv7hl/ 
 
-repo --name=jolla --baseurl=http://releases.jolla.com/releases/1.0.5.16/jolla/armv7hl/
-repo --name=hotfixes --baseurl=http://releases.jolla.com/releases/1.0.5.16/hotfixes/armv7hl/
-repo --name=apps --baseurl=http://releases.jolla.com/jolla-apps/1.0.5.16/armv7hl/
+repo --name=jolla --baseurl=http://releases.jolla.com/releases/1.0.7.16/jolla/armv7hl/
+repo --name=hotfixes --baseurl=http://releases.jolla.com/releases/1.0.7.16/hotfixes/armv7hl/
+repo --name=apps --baseurl=http://releases.jolla.com/jolla-apps/1.0.7.16/armv7hl/
 repo --name=tools --baseurl=http://repo.merproject.org/obs/mer-tools:/devel/latest_armv7hl/
 
-repo --name=hw-hammerhead --baseurl=http://repo.merproject.org/obs/home:/siteshwar:/hw:/hammerhead/sailfish_1.0.5.16_armv7hl/
-repo --name=hw-common --baseurl=http://repo.merproject.org/obs/home:/siteshwar:/hw:/common/sailfish_1.0.5.16_armv7hl/ 
+repo --name=hw-hammerhead --baseurl=http://repo.merproject.org/obs/home:/siteshwar:/hw:/hammerhead/sailfish_1.0.7.16_armv7hl/
 
 #repo --name=limited-nemo-mw --baseurl=http://repo.merproject.org/obs/home:/vgrade:/branches:/nemo:/devel:/mw/latest_armv7hl/
 #repo --name=jalnmwr --baseurl=http://repo.merproject.org/obs/home:/SourenAraya:/branches:/nemo:/devel:/mw/latest_armv7hl
@@ -163,13 +162,13 @@ droid-hal-hammerhead-kernel-modules
 droid-hal-hammerhead-devel
 droid-hal-hammerhead-policy-settings
 #droid-hal-hammerhead-img-boot
-droid-hal-hammerhead-pulseaudio-settings
+#droid-hal-hammerhead-pulseaudio-settings
 droid-hal-hammerhead-kernel
 droid-hal-hammerhead-sailfish-config
 #droid-hal-hammerhead-img-recovery
 #droid-hal-hammerhead-img-boot
 
-pulseaudio-modules-droid
+#pulseaudio-modules-droid
 libhybris-*
 ngfd-plugin-droid-vibrator
 #usb-moded*
